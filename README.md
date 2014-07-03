@@ -182,10 +182,18 @@ Type the following:
 
 ## Syncing with Maven Central
 Check the mailbox for the ticket about the repository. Click on the link, login to Jira and add a comment to the ticket, asking to review the artifacts and activate syncing to Maven Central.
-After the review, automatic syncing will be enabled and future releases will be automatically.
+After the review, you will receive an email and automatic syncing will be enabled and future releases will be automatically.
 
 ## Sonatype repository
-The artifact should be available in the following sonatype repository, without syncing:
+The artifact should be available in the sonatype repository:
 
     https://oss.sonatype.org/content/groups/public/com/github/dnvriend/
     
+Artifacts to be synct with Maven Central should be available here:
+
+    https://oss.sonatype.org/content/repositories/releases/com/github/dnvriend/
+    
+To check whether or not your artifact will be published to Central, it must be available here. Sync with Maven Central will ypically be within 10 minutes, 
+though updates to search.maven.org can take up to two hours!
+
+ Have fun!
