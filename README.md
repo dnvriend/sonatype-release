@@ -151,8 +151,6 @@ or
 ## Close and promote a staging repository
 Read the [readme.md of the sbt-sonatype plugin](https://github.com/xerial/sbt-sonatype) and [chapter 8: Release it of the Sonatype OSS Maven Repository Usage Guide](https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide#SonatypeOSSMavenRepositoryUsageGuide-8a.ReleaseIt). 
 
-When you release the artifacts from the staging repository of sonatype, it takes 	
-
 Type the following:
 
 	> sonatypeRelease
@@ -181,7 +179,7 @@ Type the following:
 	[info] Dropped successfully: comgithubdnvriend-1000
 	[success] Total time: 56 s, completed 3-jul-2014 20:26:59
 
-## Comment on the ticket you have created to create the repository
+## Syncing with Maven Central
 Check the mailbox for the ticket about the repository. Click on the link, login to Jira and add a comment to the ticket, asking to review the artifacts and activate syncing to Maven Central.
 After the review, automatic syncing will be enabled and future releases will be automatically.
 
