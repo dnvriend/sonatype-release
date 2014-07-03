@@ -1,7 +1,7 @@
 # Releasing to Sonatype
-1. Follow the steps in the (Sonatype OSS Maven Repository Usage Guide)[https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide]
+1. Follow the steps in the [Sonatype OSS Maven Repository Usage Guide](https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide)
 2. Once you have created an account, and a ticket, and the ticket has been handled (you will get an email for that)
-3. Read the scala-sbt (Deploying to Sonatype)[http://www.scala-sbt.org/0.13/docs/Using-Sonatype.html] manual
+3. Read the scala-sbt [Deploying to Sonatype](http://www.scala-sbt.org/0.13/docs/Using-Sonatype.html) manual
 
 # Launching sbt or activator
 I use the activator script, but basically it is SBT. The following commands are handy:
@@ -30,7 +30,7 @@ And add the following entries:
 	addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "0.2.1")
 
 ## Create a key pair
-* Read the following (pgp usage manual)[http://www.scala-sbt.org/sbt-pgp/usage.html]
+* Read the following [pgp usage manual](http://www.scala-sbt.org/sbt-pgp/usage.html)
 
 Type the following:
 
@@ -54,8 +54,10 @@ Type the following:
 	> pgp-cmd send-key dnvriend/akka-persistence-jdbc hkp://keyserver.ubuntu.com
 
 ## Cross building:
-Read the (SBT - Cross Build documentation)[http://www.scala-sbt.org/0.12.4/docs/Detailed-Topics/Cross-Build.html]
+Read the [SBT - Cross Build documentation](http://www.scala-sbt.org/0.12.4/docs/Detailed-Topics/Cross-Build.html)
+	
 	> +package
+	
 	> +publish
 
 ## Publish to Sonatype Staging
@@ -147,7 +149,7 @@ or
 	[success] Total time: 4 s, completed 3-jul-2014 20:22:08
 
 ## Close and promote a staging repository
-Read the (readme.md of the sbt-sonatype plugin)[https://github.com/xerial/sbt-sonatype] and (chapter 8: Release it of the Sonatype OSS Maven Repository Usage Guide)[https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide#SonatypeOSSMavenRepositoryUsageGuide-8a.ReleaseIt]. 
+Read the [readme.md of the sbt-sonatype plugin](https://github.com/xerial/sbt-sonatype) and [chapter 8: Release it of the Sonatype OSS Maven Repository Usage Guide](https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide#SonatypeOSSMavenRepositoryUsageGuide-8a.ReleaseIt). 
 
 When you release the artifacts from the staging repository of sonatype, it takes 	
 
