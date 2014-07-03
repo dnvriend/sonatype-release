@@ -62,9 +62,10 @@ Read the [SBT - Cross Build documentation](http://www.scala-sbt.org/0.12.4/docs/
 
 ## Publish to Sonatype Staging
 Note the following:
-	* This will publish to the staging area of Sonatype!
-	* Do not forget to set organization := "com.github.yourname" in build.sbt
-	* Do not forget to set the profileName := "com.github.yourname" in build.sbt
+
+* This will publish to the staging area of Sonatype!
+* Do not forget to set organization := "com.github.yourname" in build.sbt
+* Do not forget to set the profileName := "com.github.yourname" in build.sbt
 
 Type the following:
 
